@@ -1,0 +1,93 @@
+body {
+    background-color: #FFFFFF;
+    color: #757575;
+}
+
+/* Логотип сайту */
+.logo {
+    color: #2196F3;
+}
+.logo-top {
+    color: #212121;
+}
+.logo-bottom {
+    color: #FFFFFF;
+}
+
+/* Навігація на інші сайти */
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+/* Контакти */
+.contact .link {
+    color: #212121;
+}
+.contact .link:hover,
+.contact .link:focus {
+    color: #2196F3;
+}
+
+/* Основна секція герой */
+.hero-title {
+    color: #FFFFFF;
+}
+.hero {
+    background-color: #2F303A;
+}
+
+/* Section */
+.section-title {
+    color: #212121;
+}
+
+/* Features */
+.features-title {
+    color: #212121;
+}
+
+/* Наша команда */
+.team-title {
+    color: #212121;
+}
+.people {
+    background-color: #F5F4FA;
+}
+
+/* Футер */
+.footer {
+    background-color: #2F303A;
+}
+.address-list .map {
+    color: #FFFFFF;
+}
+.address-list .info {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+
+/* Колір основного тексту #757575 */
+ 
+/* Колір заголовків h2, h3, навігацій на сайти, і кнопок Портфоліо #212121 */
+
+/* Колір основноі секціі герой #FFFFFF */
+
+/* Колір фону герой, і футера #2F303A */  
+
+/* Колір синьої кнопки #2196F3 */
+
+/* Колір фону секції Чим ми займаємося, і колір фону Портфоліо #E5E5E5 */
+
+/* Колір фону секції Наша команда, і колір фону кнопок Портфоліо  #F5F4FA */
+
+/* Колір імейл і телефон у футері rgba(255, 255, 255, 0.6); */
