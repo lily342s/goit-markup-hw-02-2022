@@ -1,88 +1,21 @@
-body {
-    background-color: #FFFFFF;
-    color: #757575;
+:root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --white-color: #FFFFFF;
+    --background-hero-color: #2F303A;
+    --accent-color: #2196F3;
+    --secondary-background-color: #E5E5E5;
+    --third-background-color: #F5F4FA;
+    --footer-address-color: rgba(255, 255, 255, 0.6);
 }
-
-/* Логотип сайту */
-.logo {
-    color: #2196F3;
-}
-.logo-top {
-    color: #212121;
-}
-.logo-bottom {
-    color: #FFFFFF;
-}
-
-/* Навігація на інші сайти */
-.site-nav .link {
-    color: #212121;
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-    color: #2196F3;
-}
-
-/* Контакти */
-.contact .link {
-    color: #212121;
-}
-.contact .link:hover,
-.contact .link:focus {
-    color: #2196F3;
-}
-
-/* Основна секція герой */
-.hero-title {
-    color: #FFFFFF;
-}
-.hero {
-    background-color: #2F303A;
-}
-
-/* Section */
-.section-title {
-    color: #212121;
-}
-
-/* Features */
-.features-title {
-    color: #212121;
-}
-
-/* Наша команда */
-.team-title {
-    color: #212121;
-}
-.people {
-    background-color: #F5F4FA;
-}
-
-/* Футер */
-.footer {
-    background-color: #2F303A;
-}
-.address-list .map {
-    color: #FFFFFF;
-}
-.address-list .info {
-    color: rgba(255, 255, 255, 0.6);
-}
-
-
-ul {
-    list-style: none;
-}
-
-
 
 /* Колір основного тексту #757575 */
- 
+
 /* Колір заголовків h2, h3, навігацій на сайти, і кнопок Портфоліо #212121 */
 
 /* Колір основноі секціі герой #FFFFFF */
 
-/* Колір фону герой, і футера #2F303A */  
+/* Колір фону герой, і футера #2F303A */
 
 /* Колір синьої кнопки #2196F3 */
 
@@ -91,3 +24,89 @@ ul {
 /* Колір фону секції Наша команда, і колір фону кнопок Портфоліо  #F5F4FA */
 
 /* Колір імейл і телефон у футері rgba(255, 255, 255, 0.6); */
+
+
+body {
+    background-color: var(--white-color);
+    color: var(--primary-text-color);
+}
+
+/* Логотип сайту */
+.page-header .logo {
+    color: var(--accent-color);
+}
+.page-header .logo-top {
+    color: var(--title-text-color);
+}
+.page-header .logo-bottom {
+    color: var(--white-color);
+}
+
+/* Навігація на інші сайти */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Контакти */
+.contact .link {
+    color: var(--primary-text-color);
+}
+.contact .link:hover,
+.contact .link:focus {
+    color: var(--accent-color);
+}
+
+/* Основна секція герой */
+.hero-title {
+    color: var(--white-color);
+}
+.hero {
+    background-color: var(--background-hero-color);
+}
+
+/* Section */
+.section-title {
+    color: var(--title-text-color);
+}
+
+/* Features */
+.features-title {
+    color: var(--title-text-color);
+}
+
+/* Наша команда */
+.team-title {
+    color: var(--title-text-color);
+}
+.people {
+    background-color: var(--third-background-color);
+}
+
+/* Футер */
+.footer {
+    background-color: var(--background-hero-color);
+}
+.address-list .map {
+    color: var(--white-color);
+}
+.address-list .info {
+    color: var(--footer-address-color);
+}
+
+/* ПОРТФОЛІО */
+
+.portfolio .project-title {
+    color: var(--title-text-color);
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
