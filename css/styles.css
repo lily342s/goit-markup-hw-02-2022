@@ -51,6 +51,9 @@ body {
 .site-nav .link:focus {
     color: var(--accent-color);
 }
+.site-nav .link.current {
+    color: var(--accent-color);
+}
 
 /* Контакти */
 .contact .link {
@@ -67,6 +70,12 @@ body {
 }
 .hero {
     background-color: var(--background-hero-color);
+}
+
+/* Button */
+.button {
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 
 /* Section */
