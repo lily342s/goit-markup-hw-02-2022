@@ -32,13 +32,14 @@ body {
 }
 
 /* Логотип сайту */
-.page-header .logo {
+.page-header .logo,
+.page-footer .logo {
     color: var(--accent-color);
 }
 .page-header .logo-top {
     color: var(--title-text-color);
 }
-.page-header .logo-bottom {
+.page-footer .logo-bottom {
     color: var(--white-color);
 }
 
@@ -87,7 +88,7 @@ body {
 }
 
 /* Футер */
-.footer {
+.page-footer {
     background-color: var(--background-hero-color);
 }
 .address-list .map {
