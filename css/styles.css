@@ -65,7 +65,7 @@ body {
 }
 
 /* Основна секція герой */
-.hero-title {
+.hero > .hero-title {
     color: var(--white-color);
 }
 .hero {
@@ -79,17 +79,17 @@ body {
 }
 
 /* Section */
-.section-title {
+.section > .section-title {
     color: var(--title-text-color);
 }
 
 /* Features */
-.features-title {
+.features .features-title {
     color: var(--title-text-color);
 }
 
 /* Наша команда */
-.team-title {
+.section .team-title {
     color: var(--title-text-color);
 }
 .people {
