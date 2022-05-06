@@ -93,6 +93,8 @@ body {
   color: var(--white-color);
   background-color: var(--accent-color);
 
+  cursor: pointer;
+
   font-family: inherit;
   font-style: normal;
   font-weight: 700;
@@ -174,6 +176,8 @@ body {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+
+  cursor: pointer;
 }
 .portfolio .btn:hover,
 .portfolio .btn:focus {
